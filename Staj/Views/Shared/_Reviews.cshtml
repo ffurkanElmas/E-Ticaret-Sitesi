@@ -1,0 +1,17 @@
+﻿@model IEnumerable<Staj.Models.ReviewModel>
+
+@if (Model != null && Model.Any())
+{
+    foreach (var review in Model)
+    {
+        <div class="review">
+            <h4>@review.Username</h4>
+            <p>@review.ReviewText</p>
+            <span>Rating: @review.Rating</span>
+        </div>
+    }
+}
+else
+{
+    <p>Henüz bu ürün için inceleme yapılmamış.</p>
+}

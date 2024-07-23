@@ -1,0 +1,84 @@
+﻿@using Staj.Models
+@model OrderDetailsModel
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-12">
+            <h2>SİPARİŞ DETAYLARI</h2>
+            <hr />
+            <dl class="row">
+                <dt class="col-sm-3">Sipariş Numarası</dt>
+                <dd class="col-sm-9">@Model.OrderNumber</dd>
+
+                <dt class="col-sm-3">Kullanıcı</dt>
+                <dd class="col-sm-9">@Model.Username</dd>
+
+                <dt class="col-sm-3">Toplam Ücret</dt>
+                <dd class="col-sm-9">@Model.Total TL</dd>
+
+                <dt class="col-sm-3">Sipariş Tarihi</dt>
+                <dd class="col-sm-9">@Model.OrderDate</dd>
+
+                <dt class="col-sm-3">Sipariş Durumu</dt>
+                <dd class="col-sm-9">
+                    <div class="row">
+                        @using (Html.BeginForm("UpdateOrderStatus", "Order", FormMethod.Post))
+                        {
+                            @Html.HiddenFor(i => i.OrderId)
+                            <div class="col-md-9 d-flex justify-content-between align-items-center">
+                                @Html.EnumDropDownListFor(i => i.OrderStatus, "Sipariş Durumu", new { @class = "form-control" })
+                                <button type="submit" class="btn btn-primary ml-2">Güncelle</button>
+                            </div>
+                        }
+                    </div>
+                </dd>
+
+                <dt class="col-sm-3">Adres</dt>
+                <dd class="col-sm-9">
+                    @Model.AddressTitle
+                    <hr />
+                    @Model.Address
+                    <br />
+                    @Model.City /  @Model.District - @Model.Neighborhood
+                    <br />
+                    @Model.PostCode
+                </dd>
+                <dt class="col-sm-3">Ürünler</dt>
+                <dd class="col-sm-9">
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th>Ürün</th>
+                                <th>Adet</th>
+                                <th>Fiyat</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model.OrderLines)
+                            {
+                                <tr>
+                                    <td>
+                                        <img src="~/theme/img/@item.Image" width="100" height="100" />
+                                    </td>
+                                    <td>@item.ProductName</td>
+                                    <td>@item.Quantity</td>
+                                    <td>@item.Price TL</td>
+                                    <td>
+                                        <a href="/Home/Details/@item.ProductId" class="btn btn-primary" target="_blank">Ürün Sayfası</a>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                    @Html.ActionLink("Geri Dön", "Index", null, new { @class = "btn btn-warning" })
+                </dd>
+            </dl>
+        </div>
+    </div>
+</div>

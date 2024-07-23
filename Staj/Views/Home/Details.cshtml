@@ -1,0 +1,77 @@
+﻿
+@model Staj.Entity.Product
+@{
+    ViewBag.Title = "Details";
+}
+<head>
+    <link rel="stylesheet" href="/theme/css/style.css">
+</head>
+
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-6">
+            <img src="~/theme/img/@Model.Image" class="img-responsive w-100">
+        </div>
+        <div class="col-md-6">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>@Model.Name</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    @if (Model.IsApproved)
+                    {<span class="badge badge-success">Satışta</span>}
+                    else
+                    {<span class="badge badge-danger">Satışta Değil</span> }
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="description">
+                        @Model.Description
+                    </div>
+                </div>
+            </div>
+          
+            <div class="row mt-3">
+                <div class="col-md-12">
+                    <h4 id="product-price">@Model.Price TL</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    @using (Html.BeginForm("AddToCart" , "Cart"))
+                     {
+                        @Html.HiddenFor(i=> i.Id)
+                        <button type="submit" class="btn btn-success"><i class="fa fa-cart-plus" aria-hidden="true"></i>Sepete Ekle</button>
+                     }
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row mt-5">
+        <div class="col-md-12">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link" id="description-tab" data-toggle="tab" href="#description-content" role="tab" aria-controls="description-content" aria-selected="false">Açıklama</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="payment-tab" data-toggle="tab" href="#payment-content" role="tab" aria-controls="payment-content" aria-selected="false">Ödeme Yöntemleri</a>
+                </li>
+            </ul>
+
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade" id="description-content" role="tabpanel" aria-labelledby="description-tab">
+                    @Model.Description
+                </div>
+                <div class="tab-pane fade" id="payment-content" role="tabpanel" aria-labelledby="payment-tab">
+                    <h2>Ödeme Yöntemleri</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,57 @@
+﻿@using Staj.Entity;
+@using Staj.Models;
+@model IEnumerable<ProductModel>
+@{
+    ViewBag.Title = "_ProductList";
+}
+
+<div class="row">
+    @foreach (var urun in Model)
+    {
+        <div class="col-md-4 mb-3">
+            <a href="/Home/Details/@urun.Id" class="card-link">
+                <div class="card fixed-height-card" style="width: 18rem;">
+                    <img class="card-img-top" src="~/theme/img/@urun.Image" alt="@urun.Name">
+                    <div class="card-body">
+                        <h5 class="card-title">@urun.Name</h5>
+                        <h6><strong>@urun.Price TL</strong></h6>
+                    </div>
+                </div>
+            </a>
+        </div>
+    }
+</div>
+
+<style>
+    .card-link {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    .fixed-height-card {
+        height: 400px; /* Kartın sabit yüksekliğini buraya girin */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+        .fixed-height-card img {
+            height: 250px; /* Resmin yüksekliğini buraya girin */
+            width: auto;
+            object-fit: cover; /* Resmin kart içinde doğru şekilde görünmesi için */
+        }
+
+        .fixed-height-card .card-body {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            text-align: center;
+        }
+
+    .card-title, .card-body h6 {
+        margin: 10px 0; /* Kenar boşluklarını buradan ayarlayın */
+    }
+</style>

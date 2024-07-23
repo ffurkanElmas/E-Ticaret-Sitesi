@@ -1,0 +1,42 @@
+﻿@using Staj.Entity;
+@using Staj.Models;
+@model IEnumerable<ProductModel>
+@{
+    ViewBag.Title = "List";
+}
+<head>
+    <link rel="stylesheet" href="/theme/css/style.css">
+</head>
+
+
+
+<div class="container mt-5">
+    <div class="row">
+   
+    <div class="col-md-3">
+       @Html.Action("GetCategories" , "Home")
+    </div>
+
+    <div class="col-md-9">
+        @if (Model.Count() == 0)
+        {
+            <div class="alert alert-danger" role="alert">
+                <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+                Bu kategoriye ait ürün bulunamadı.
+            </div>
+        }
+
+        else
+        {
+    <div class="alert alert-light" role="alert">
+        <i class="fa fa-check-circle" aria-hidden="true"></i>
+        Bu kategoriye ait @Model.Count() adet ürün bulundu.
+
+    </div>
+            }
+
+        @Html.Partial("_ProductList", Model)
+
+    </div>
+    </div>
+</div>
