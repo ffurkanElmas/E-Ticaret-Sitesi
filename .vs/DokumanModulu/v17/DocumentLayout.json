@@ -3,6 +3,30 @@
   "WorkspaceRootPath": "C:\\Dosyalar\\C#\\DokumanModulu\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F4E7C67B-B0B9-4D30-8EC9-B655E9635699}|DokumanModulu\\DokumanModulu.csproj|c:\\dosyalar\\c#\\dokumanmodulu\\dokumanmodulu\\controllers\\documenttrackingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4E7C67B-B0B9-4D30-8EC9-B655E9635699}|DokumanModulu\\DokumanModulu.csproj|solutionrelative:dokumanmodulu\\controllers\\documenttrackingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4E7C67B-B0B9-4D30-8EC9-B655E9635699}|DokumanModulu\\DokumanModulu.csproj|c:\\dosyalar\\c#\\dokumanmodulu\\dokumanmodulu\\views\\documenttracking\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F4E7C67B-B0B9-4D30-8EC9-B655E9635699}|DokumanModulu\\DokumanModulu.csproj|solutionrelative:dokumanmodulu\\views\\documenttracking\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4E7C67B-B0B9-4D30-8EC9-B655E9635699}|DokumanModulu\\DokumanModulu.csproj|c:\\dosyalar\\c#\\dokumanmodulu\\dokumanmodulu\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F4E7C67B-B0B9-4D30-8EC9-B655E9635699}|DokumanModulu\\DokumanModulu.csproj|solutionrelative:dokumanmodulu\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4E7C67B-B0B9-4D30-8EC9-B655E9635699}|DokumanModulu\\DokumanModulu.csproj|C:\\Dosyalar\\C#\\DokumanModulu\\dokumanmodulu\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4E7C67B-B0B9-4D30-8EC9-B655E9635699}|DokumanModulu\\DokumanModulu.csproj|solutionrelative:dokumanmodulu\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4E7C67B-B0B9-4D30-8EC9-B655E9635699}|DokumanModulu\\DokumanModulu.csproj|c:\\dosyalar\\c#\\dokumanmodulu\\dokumanmodulu\\identity\\identityinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4E7C67B-B0B9-4D30-8EC9-B655E9635699}|DokumanModulu\\DokumanModulu.csproj|solutionrelative:dokumanmodulu\\identity\\identityinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4E7C67B-B0B9-4D30-8EC9-B655E9635699}|DokumanModulu\\DokumanModulu.csproj|c:\\dosyalar\\c#\\dokumanmodulu\\dokumanmodulu\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{F4E7C67B-B0B9-4D30-8EC9-B655E9635699}|DokumanModulu\\DokumanModulu.csproj|solutionrelative:dokumanmodulu\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F4E7C67B-B0B9-4D30-8EC9-B655E9635699}|DokumanModulu\\DokumanModulu.csproj|c:\\dosyalar\\c#\\dokumanmodulu\\dokumanmodulu\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F4E7C67B-B0B9-4D30-8EC9-B655E9635699}|DokumanModulu\\DokumanModulu.csproj|solutionrelative:dokumanmodulu\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -11,16 +35,8 @@
       "RelativeMoniker": "D:0:0:{F4E7C67B-B0B9-4D30-8EC9-B655E9635699}|DokumanModulu\\DokumanModulu.csproj|solutionrelative:dokumanmodulu\\models\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F4E7C67B-B0B9-4D30-8EC9-B655E9635699}|DokumanModulu\\DokumanModulu.csproj|C:\\Dosyalar\\C#\\DokumanModulu\\dokumanmodulu\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F4E7C67B-B0B9-4D30-8EC9-B655E9635699}|DokumanModulu\\DokumanModulu.csproj|solutionrelative:dokumanmodulu\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F4E7C67B-B0B9-4D30-8EC9-B655E9635699}|DokumanModulu\\DokumanModulu.csproj|C:\\Dosyalar\\C#\\DokumanModulu\\dokumanmodulu\\entity\\datainitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F4E7C67B-B0B9-4D30-8EC9-B655E9635699}|DokumanModulu\\DokumanModulu.csproj|solutionrelative:dokumanmodulu\\entity\\datainitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F4E7C67B-B0B9-4D30-8EC9-B655E9635699}|DokumanModulu\\DokumanModulu.csproj|C:\\Dosyalar\\C#\\DokumanModulu\\dokumanmodulu\\entity\\documenttracking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F4E7C67B-B0B9-4D30-8EC9-B655E9635699}|DokumanModulu\\DokumanModulu.csproj|solutionrelative:dokumanmodulu\\entity\\documenttracking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F4E7C67B-B0B9-4D30-8EC9-B655E9635699}|DokumanModulu\\DokumanModulu.csproj|C:\\Dosyalar\\C#\\DokumanModulu\\dokumanmodulu\\entity\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,11 +50,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DocumentTrackingController.cs",
+              "DocumentMoniker": "C:\\Dosyalar\\C#\\DokumanModulu\\DokumanModulu\\Controllers\\DocumentTrackingController.cs",
+              "RelativeDocumentMoniker": "DokumanModulu\\Controllers\\DocumentTrackingController.cs",
+              "ToolTip": "C:\\Dosyalar\\C#\\DokumanModulu\\DokumanModulu\\Controllers\\DocumentTrackingController.cs",
+              "RelativeToolTip": "DokumanModulu\\Controllers\\DocumentTrackingController.cs",
+              "ViewState": "AQIAAMcAAAAAAAAAAAAowN8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T14:07:50.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Dosyalar\\C#\\DokumanModulu\\DokumanModulu\\Views\\DocumentTracking\\Edit.cshtml",
+              "RelativeDocumentMoniker": "DokumanModulu\\Views\\DocumentTracking\\Edit.cshtml",
+              "ToolTip": "C:\\Dosyalar\\C#\\DokumanModulu\\DokumanModulu\\Views\\DocumentTracking\\Edit.cshtml",
+              "RelativeToolTip": "DokumanModulu\\Views\\DocumentTracking\\Edit.cshtml",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAiwGIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-29T14:13:19.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Dosyalar\\C#\\DokumanModulu\\DokumanModulu\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "DokumanModulu\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Dosyalar\\C#\\DokumanModulu\\DokumanModulu\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "DokumanModulu\\Views\\Account\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-29T11:36:34.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IdentityInitializer.cs",
+              "DocumentMoniker": "C:\\Dosyalar\\C#\\DokumanModulu\\DokumanModulu\\Identity\\IdentityInitializer.cs",
+              "RelativeDocumentMoniker": "DokumanModulu\\Identity\\IdentityInitializer.cs",
+              "ToolTip": "C:\\Dosyalar\\C#\\DokumanModulu\\DokumanModulu\\Identity\\IdentityInitializer.cs",
+              "RelativeToolTip": "DokumanModulu\\Identity\\IdentityInitializer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T09:36:34.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Dosyalar\\C#\\DokumanModulu\\DokumanModulu\\Web.config",
+              "RelativeDocumentMoniker": "DokumanModulu\\Web.config",
+              "ToolTip": "C:\\Dosyalar\\C#\\DokumanModulu\\DokumanModulu\\Web.config",
+              "RelativeToolTip": "DokumanModulu\\Web.config",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAAEgAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-07-29T08:34:44.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Register.cs",
               "DocumentMoniker": "C:\\Dosyalar\\C#\\DokumanModulu\\DokumanModulu\\Models\\Register.cs",
               "RelativeDocumentMoniker": "DokumanModulu\\Models\\Register.cs",
@@ -50,19 +131,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Dosyalar\\C#\\DokumanModulu\\DokumanModulu\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "DokumanModulu\\Controllers\\AccountController.cs",
               "ToolTip": "C:\\Dosyalar\\C#\\DokumanModulu\\DokumanModulu\\Controllers\\AccountController.cs",
               "RelativeToolTip": "DokumanModulu\\Controllers\\AccountController.cs",
-              "ViewState": "AQIAADsAAAAAAAAAAAAgwE4AAAAJAAAA",
+              "ViewState": "AQIAAOQAAAAAAAAAAAAkwPsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T07:52:35.789Z"
+              "WhenOpened": "2024-07-29T07:52:35.789Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "Register.cshtml",
               "DocumentMoniker": "C:\\Dosyalar\\C#\\DokumanModulu\\DokumanModulu\\Views\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "DokumanModulu\\Views\\Account\\Register.cshtml",
@@ -75,19 +157,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DocumentTracking.cs",
-              "DocumentMoniker": "C:\\Dosyalar\\C#\\DokumanModulu\\DokumanModulu\\Entity\\DocumentTracking.cs",
-              "RelativeDocumentMoniker": "DokumanModulu\\Entity\\DocumentTracking.cs",
-              "ToolTip": "C:\\Dosyalar\\C#\\DokumanModulu\\DokumanModulu\\Entity\\DocumentTracking.cs",
-              "RelativeToolTip": "DokumanModulu\\Entity\\DocumentTracking.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T07:17:49.311Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "DataInitializer.cs",
               "DocumentMoniker": "C:\\Dosyalar\\C#\\DokumanModulu\\DokumanModulu\\Entity\\DataInitializer.cs",
               "RelativeDocumentMoniker": "DokumanModulu\\Entity\\DataInitializer.cs",
@@ -99,7 +169,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "DataContext.cs",
               "DocumentMoniker": "C:\\Dosyalar\\C#\\DokumanModulu\\DokumanModulu\\Entity\\DataContext.cs",
               "RelativeDocumentMoniker": "DokumanModulu\\Entity\\DataContext.cs",

@@ -132,7 +132,7 @@ namespace DokumanModulu.Controllers
                 db.SaveChanges();
 
                 // İzinli kullanıcıyı güncelle
-                var allowedUsers = string.Join(",", selectedUsers);
+                var allowedUsers = selectedUsers != null ? string.Join(",", selectedUsers) : string.Empty;
                 documentTracking.AllowedUsers = allowedUsers;
                 db.Entry(documentTracking).State = EntityState.Modified;
                 db.SaveChanges();
@@ -215,9 +215,9 @@ namespace DokumanModulu.Controllers
 
             string filePath = Server.MapPath(document.Path);
             string contentType = MimeMapping.GetMimeMapping(filePath);
-            return File(filePath, contentType, Path.GetFileName(filePath));
-        }
 
-      
+            Response.AppendHeader("Content-Disposition", "inline; filename=" + Path.GetFileName(filePath));
+            return File(filePath, contentType);
+        }
     }
 }
