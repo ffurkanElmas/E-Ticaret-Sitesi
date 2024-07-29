@@ -3,40 +3,88 @@
   "WorkspaceRootPath": "C:\\Dosyalar\\C#\\Staj.MVCeTicaret\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F4E7C67B-B0B9-4D30-8EC9-B655E9635699}|Staj\\Staj.csproj|c:\\dosyalar\\c#\\staj.mvceticaret\\staj\\views\\shared\\_productlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F4E7C67B-B0B9-4D30-8EC9-B655E9635699}|Staj\\Staj.csproj|solutionrelative:staj\\views\\shared\\_productlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F4E7C67B-B0B9-4D30-8EC9-B655E9635699}|Staj\\Staj.csproj|c:\\dosyalar\\c#\\staj.mvceticaret\\staj\\identity\\identityinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4E7C67B-B0B9-4D30-8EC9-B655E9635699}|Staj\\Staj.csproj|solutionrelative:staj\\identity\\identityinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F4E7C67B-B0B9-4D30-8EC9-B655E9635699}|Staj\\Staj.csproj|c:\\dosyalar\\c#\\staj.mvceticaret\\staj\\entity\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F4E7C67B-B0B9-4D30-8EC9-B655E9635699}|Staj\\Staj.csproj|C:\\Dosyalar\\C#\\Staj.MVCeTicaret\\staj\\identity\\identitydatacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4E7C67B-B0B9-4D30-8EC9-B655E9635699}|Staj\\Staj.csproj|solutionrelative:staj\\identity\\identitydatacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4E7C67B-B0B9-4D30-8EC9-B655E9635699}|Staj\\Staj.csproj|C:\\Dosyalar\\C#\\Staj.MVCeTicaret\\staj\\identity\\applicationrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4E7C67B-B0B9-4D30-8EC9-B655E9635699}|Staj\\Staj.csproj|solutionrelative:staj\\identity\\applicationrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4E7C67B-B0B9-4D30-8EC9-B655E9635699}|Staj\\Staj.csproj|C:\\Dosyalar\\C#\\Staj.MVCeTicaret\\staj\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4E7C67B-B0B9-4D30-8EC9-B655E9635699}|Staj\\Staj.csproj|solutionrelative:staj\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4E7C67B-B0B9-4D30-8EC9-B655E9635699}|Staj\\Staj.csproj|C:\\Dosyalar\\C#\\Staj.MVCeTicaret\\staj\\models\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4E7C67B-B0B9-4D30-8EC9-B655E9635699}|Staj\\Staj.csproj|solutionrelative:staj\\models\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4E7C67B-B0B9-4D30-8EC9-B655E9635699}|Staj\\Staj.csproj|C:\\Dosyalar\\C#\\Staj.MVCeTicaret\\staj\\entity\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F4E7C67B-B0B9-4D30-8EC9-B655E9635699}|Staj\\Staj.csproj|solutionrelative:staj\\entity\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F4E7C67B-B0B9-4D30-8EC9-B655E9635699}|Staj\\Staj.csproj|c:\\dosyalar\\c#\\staj.mvceticaret\\staj\\theme\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{F4E7C67B-B0B9-4D30-8EC9-B655E9635699}|Staj\\Staj.csproj|C:\\Dosyalar\\C#\\Staj.MVCeTicaret\\staj\\theme\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{F4E7C67B-B0B9-4D30-8EC9-B655E9635699}|Staj\\Staj.csproj|solutionrelative:staj\\theme\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4E7C67B-B0B9-4D30-8EC9-B655E9635699}|Staj\\Staj.csproj|C:\\Dosyalar\\C#\\Staj.MVCeTicaret\\staj\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4E7C67B-B0B9-4D30-8EC9-B655E9635699}|Staj\\Staj.csproj|solutionrelative:staj\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4E7C67B-B0B9-4D30-8EC9-B655E9635699}|Staj\\Staj.csproj|C:\\Dosyalar\\C#\\Staj.MVCeTicaret\\staj\\views\\documenttracking\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F4E7C67B-B0B9-4D30-8EC9-B655E9635699}|Staj\\Staj.csproj|solutionrelative:staj\\views\\documenttracking\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4E7C67B-B0B9-4D30-8EC9-B655E9635699}|Staj\\Staj.csproj|C:\\Dosyalar\\C#\\Staj.MVCeTicaret\\staj\\controllers\\documenttrackingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4E7C67B-B0B9-4D30-8EC9-B655E9635699}|Staj\\Staj.csproj|solutionrelative:staj\\controllers\\documenttrackingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4E7C67B-B0B9-4D30-8EC9-B655E9635699}|Staj\\Staj.csproj|C:\\Dosyalar\\C#\\Staj.MVCeTicaret\\staj\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F4E7C67B-B0B9-4D30-8EC9-B655E9635699}|Staj\\Staj.csproj|solutionrelative:staj\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4E7C67B-B0B9-4D30-8EC9-B655E9635699}|Staj\\Staj.csproj|C:\\Dosyalar\\C#\\Staj.MVCeTicaret\\staj\\views\\documenttracking\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F4E7C67B-B0B9-4D30-8EC9-B655E9635699}|Staj\\Staj.csproj|solutionrelative:staj\\views\\documenttracking\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4E7C67B-B0B9-4D30-8EC9-B655E9635699}|Staj\\Staj.csproj|C:\\Dosyalar\\C#\\Staj.MVCeTicaret\\staj\\views\\documenttracking\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F4E7C67B-B0B9-4D30-8EC9-B655E9635699}|Staj\\Staj.csproj|solutionrelative:staj\\views\\documenttracking\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4E7C67B-B0B9-4D30-8EC9-B655E9635699}|Staj\\Staj.csproj|C:\\Dosyalar\\C#\\Staj.MVCeTicaret\\staj\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F4E7C67B-B0B9-4D30-8EC9-B655E9635699}|Staj\\Staj.csproj|solutionrelative:staj\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4E7C67B-B0B9-4D30-8EC9-B655E9635699}|Staj\\Staj.csproj|C:\\Dosyalar\\C#\\Staj.MVCeTicaret\\staj\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F4E7C67B-B0B9-4D30-8EC9-B655E9635699}|Staj\\Staj.csproj|solutionrelative:staj\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4E7C67B-B0B9-4D30-8EC9-B655E9635699}|Staj\\Staj.csproj|C:\\Dosyalar\\C#\\Staj.MVCeTicaret\\staj\\views\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F4E7C67B-B0B9-4D30-8EC9-B655E9635699}|Staj\\Staj.csproj|solutionrelative:staj\\views\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4E7C67B-B0B9-4D30-8EC9-B655E9635699}|Staj\\Staj.csproj|C:\\Dosyalar\\C#\\Staj.MVCeTicaret\\staj\\views\\account\\_userdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F4E7C67B-B0B9-4D30-8EC9-B655E9635699}|Staj\\Staj.csproj|solutionrelative:staj\\views\\account\\_userdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F4E7C67B-B0B9-4D30-8EC9-B655E9635699}|Staj\\Staj.csproj|C:\\Dosyalar\\C#\\Staj.MVCeTicaret\\staj\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F4E7C67B-B0B9-4D30-8EC9-B655E9635699}|Staj\\Staj.csproj|solutionrelative:staj\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F4E7C67B-B0B9-4D30-8EC9-B655E9635699}|Staj\\Staj.csproj|c:\\dosyalar\\c#\\staj.mvceticaret\\staj\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F4E7C67B-B0B9-4D30-8EC9-B655E9635699}|Staj\\Staj.csproj|solutionrelative:staj\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F4E7C67B-B0B9-4D30-8EC9-B655E9635699}|Staj\\Staj.csproj|C:\\Dosyalar\\C#\\Staj.MVCeTicaret\\staj\\views\\account\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F4E7C67B-B0B9-4D30-8EC9-B655E9635699}|Staj\\Staj.csproj|solutionrelative:staj\\views\\account\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F4E7C67B-B0B9-4D30-8EC9-B655E9635699}|Staj\\Staj.csproj|c:\\dosyalar\\c#\\staj.mvceticaret\\staj\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F4E7C67B-B0B9-4D30-8EC9-B655E9635699}|Staj\\Staj.csproj|solutionrelative:staj\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F4E7C67B-B0B9-4D30-8EC9-B655E9635699}|Staj\\Staj.csproj|C:\\Dosyalar\\C#\\Staj.MVCeTicaret\\staj\\entity\\documenttracking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4E7C67B-B0B9-4D30-8EC9-B655E9635699}|Staj\\Staj.csproj|solutionrelative:staj\\entity\\documenttracking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F4E7C67B-B0B9-4D30-8EC9-B655E9635699}|Staj\\Staj.csproj|c:\\dosyalar\\c#\\staj.mvceticaret\\staj\\views\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F4E7C67B-B0B9-4D30-8EC9-B655E9635699}|Staj\\Staj.csproj|solutionrelative:staj\\views\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F4E7C67B-B0B9-4D30-8EC9-B655E9635699}|Staj\\Staj.csproj|c:\\dosyalar\\c#\\staj.mvceticaret\\staj\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F4E7C67B-B0B9-4D30-8EC9-B655E9635699}|Staj\\Staj.csproj|solutionrelative:staj\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F4E7C67B-B0B9-4D30-8EC9-B655E9635699}|Staj\\Staj.csproj|c:\\dosyalar\\c#\\staj.mvceticaret\\staj\\views\\shared\\_reviews.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F4E7C67B-B0B9-4D30-8EC9-B655E9635699}|Staj\\Staj.csproj|solutionrelative:staj\\views\\shared\\_reviews.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F4E7C67B-B0B9-4D30-8EC9-B655E9635699}|Staj\\Staj.csproj|C:\\Dosyalar\\C#\\Staj.MVCeTicaret\\staj\\entity\\datainitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4E7C67B-B0B9-4D30-8EC9-B655E9635699}|Staj\\Staj.csproj|solutionrelative:staj\\entity\\datainitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,124 +94,264 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Dosyalar\\C#\\Staj.MVCeTicaret\\Staj\\Views\\Account\\Index.cshtml",
-              "RelativeDocumentMoniker": "Staj\\Views\\Account\\Index.cshtml",
-              "ToolTip": "C:\\Dosyalar\\C#\\Staj.MVCeTicaret\\Staj\\Views\\Account\\Index.cshtml",
-              "RelativeToolTip": "Staj\\Views\\Account\\Index.cshtml",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAAAoAAAASAAAA",
+              "DocumentIndex": 13,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Dosyalar\\C#\\Staj.MVCeTicaret\\Staj\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Staj\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Dosyalar\\C#\\Staj.MVCeTicaret\\Staj\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Staj\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABQAAABLAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-22T12:06:35.675Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "_LoginPartial.cshtml",
-              "DocumentMoniker": "C:\\Dosyalar\\C#\\Staj.MVCeTicaret\\Staj\\Views\\Shared\\_LoginPartial.cshtml",
-              "RelativeDocumentMoniker": "Staj\\Views\\Shared\\_LoginPartial.cshtml",
-              "ToolTip": "C:\\Dosyalar\\C#\\Staj.MVCeTicaret\\Staj\\Views\\Shared\\_LoginPartial.cshtml",
-              "RelativeToolTip": "Staj\\Views\\Shared\\_LoginPartial.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-22T11:54:21.118Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "_ProductList.cshtml",
-              "DocumentMoniker": "C:\\Dosyalar\\C#\\Staj.MVCeTicaret\\Staj\\Views\\Shared\\_ProductList.cshtml",
-              "RelativeDocumentMoniker": "Staj\\Views\\Shared\\_ProductList.cshtml",
-              "ToolTip": "C:\\Dosyalar\\C#\\Staj.MVCeTicaret\\Staj\\Views\\Shared\\_ProductList.cshtml",
-              "RelativeToolTip": "Staj\\Views\\Shared\\_ProductList.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-22T11:47:43.441Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "style.css",
-              "DocumentMoniker": "C:\\Dosyalar\\C#\\Staj.MVCeTicaret\\Staj\\theme\\css\\style.css",
-              "RelativeDocumentMoniker": "Staj\\theme\\css\\style.css",
-              "ToolTip": "C:\\Dosyalar\\C#\\Staj.MVCeTicaret\\Staj\\theme\\css\\style.css",
-              "RelativeToolTip": "Staj\\theme\\css\\style.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-07-22T11:48:54.58Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DataContext.cs",
-              "DocumentMoniker": "C:\\Dosyalar\\C#\\Staj.MVCeTicaret\\Staj\\Entity\\DataContext.cs",
-              "RelativeDocumentMoniker": "Staj\\Entity\\DataContext.cs",
-              "ToolTip": "C:\\Dosyalar\\C#\\Staj.MVCeTicaret\\Staj\\Entity\\DataContext.cs",
-              "RelativeToolTip": "Staj\\Entity\\DataContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAA4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-22T11:41:38.391Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "_Reviews.cshtml",
-              "DocumentMoniker": "C:\\Dosyalar\\C#\\Staj.MVCeTicaret\\Staj\\Views\\Shared\\_Reviews.cshtml",
-              "RelativeDocumentMoniker": "Staj\\Views\\Shared\\_Reviews.cshtml",
-              "ToolTip": "C:\\Dosyalar\\C#\\Staj.MVCeTicaret\\Staj\\Views\\Shared\\_Reviews.cshtml",
-              "RelativeToolTip": "Staj\\Views\\Shared\\_Reviews.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-22T08:26:07.448Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Dosyalar\\C#\\Staj.MVCeTicaret\\Staj\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Staj\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Dosyalar\\C#\\Staj.MVCeTicaret\\Staj\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Staj\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAcwBMAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-22T07:40:15.923Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-23T08:11:21.082Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Dosyalar\\C#\\Staj.MVCeTicaret\\Staj\\Views\\Home\\Details.cshtml",
-              "RelativeDocumentMoniker": "Staj\\Views\\Home\\Details.cshtml",
-              "ToolTip": "C:\\Dosyalar\\C#\\Staj.MVCeTicaret\\Staj\\Views\\Home\\Details.cshtml",
-              "RelativeToolTip": "Staj\\Views\\Home\\Details.cshtml",
-              "ViewState": "AQIAADQAAAAAAAAAAAAAwEUAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-22T07:33:48.853Z",
+              "Title": "Register.cs",
+              "DocumentMoniker": "C:\\Dosyalar\\C#\\Staj.MVCeTicaret\\Staj\\Models\\Register.cs",
+              "RelativeDocumentMoniker": "Staj\\Models\\Register.cs",
+              "ToolTip": "C:\\Dosyalar\\C#\\Staj.MVCeTicaret\\Staj\\Models\\Register.cs",
+              "RelativeToolTip": "Staj\\Models\\Register.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAA+wC4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T07:18:13.369Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Dosyalar\\C#\\Staj.MVCeTicaret\\Staj\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Staj\\Models\\User.cs",
+              "ToolTip": "C:\\Dosyalar\\C#\\Staj.MVCeTicaret\\Staj\\Models\\User.cs",
+              "RelativeToolTip": "Staj\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T12:02:38.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApplicationRole.cs",
+              "DocumentMoniker": "C:\\Dosyalar\\C#\\Staj.MVCeTicaret\\Staj\\Identity\\ApplicationRole.cs",
+              "RelativeDocumentMoniker": "Staj\\Identity\\ApplicationRole.cs",
+              "ToolTip": "C:\\Dosyalar\\C#\\Staj.MVCeTicaret\\Staj\\Identity\\ApplicationRole.cs",
+              "RelativeToolTip": "Staj\\Identity\\ApplicationRole.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAswBYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T08:21:00.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IdentityDataContext.cs",
+              "DocumentMoniker": "C:\\Dosyalar\\C#\\Staj.MVCeTicaret\\Staj\\Identity\\IdentityDataContext.cs",
+              "RelativeDocumentMoniker": "Staj\\Identity\\IdentityDataContext.cs",
+              "ToolTip": "C:\\Dosyalar\\C#\\Staj.MVCeTicaret\\Staj\\Identity\\IdentityDataContext.cs",
+              "RelativeToolTip": "Staj\\Identity\\IdentityDataContext.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T08:49:20.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IdentityInitializer.cs",
+              "DocumentMoniker": "C:\\Dosyalar\\C#\\Staj.MVCeTicaret\\Staj\\Identity\\IdentityInitializer.cs",
+              "RelativeDocumentMoniker": "Staj\\Identity\\IdentityInitializer.cs",
+              "ToolTip": "C:\\Dosyalar\\C#\\Staj.MVCeTicaret\\Staj\\Identity\\IdentityInitializer.cs",
+              "RelativeToolTip": "Staj\\Identity\\IdentityInitializer.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAowCoAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T13:50:45.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "style.css",
+              "DocumentMoniker": "C:\\Dosyalar\\C#\\Staj.MVCeTicaret\\Staj\\theme\\css\\style.css",
+              "RelativeDocumentMoniker": "Staj\\theme\\css\\style.css",
+              "ToolTip": "C:\\Dosyalar\\C#\\Staj.MVCeTicaret\\Staj\\theme\\css\\style.css",
+              "RelativeToolTip": "Staj\\theme\\css\\style.css",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-07-22T11:48:54.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "C:\\Dosyalar\\C#\\Staj.MVCeTicaret\\Staj\\Entity\\DataContext.cs",
+              "RelativeDocumentMoniker": "Staj\\Entity\\DataContext.cs",
+              "ToolTip": "C:\\Dosyalar\\C#\\Staj.MVCeTicaret\\Staj\\Entity\\DataContext.cs",
+              "RelativeToolTip": "Staj\\Entity\\DataContext.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAswBAAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T11:38:55.408Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Dosyalar\\C#\\Staj.MVCeTicaret\\Staj\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Staj\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Dosyalar\\C#\\Staj.MVCeTicaret\\Staj\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Staj\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABcAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T07:40:15.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Dosyalar\\C#\\Staj.MVCeTicaret\\Staj\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Staj\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Dosyalar\\C#\\Staj.MVCeTicaret\\Staj\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Staj\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-23T08:07:04.486Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DocumentTrackingController.cs",
+              "DocumentMoniker": "C:\\Dosyalar\\C#\\Staj.MVCeTicaret\\Staj\\Controllers\\DocumentTrackingController.cs",
+              "RelativeDocumentMoniker": "Staj\\Controllers\\DocumentTrackingController.cs",
+              "ToolTip": "C:\\Dosyalar\\C#\\Staj.MVCeTicaret\\Staj\\Controllers\\DocumentTrackingController.cs",
+              "RelativeToolTip": "Staj\\Controllers\\DocumentTrackingController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAM0AAABVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T11:55:03.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Dosyalar\\C#\\Staj.MVCeTicaret\\Staj\\Views\\DocumentTracking\\Index.cshtml",
+              "RelativeDocumentMoniker": "Staj\\Views\\DocumentTracking\\Index.cshtml",
+              "ToolTip": "C:\\Dosyalar\\C#\\Staj.MVCeTicaret\\Staj\\Views\\DocumentTracking\\Index.cshtml",
+              "RelativeToolTip": "Staj\\Views\\DocumentTracking\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-23T08:54:54.189Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Dosyalar\\C#\\Staj.MVCeTicaret\\Staj\\Views\\DocumentTracking\\Create.cshtml",
+              "RelativeDocumentMoniker": "Staj\\Views\\DocumentTracking\\Create.cshtml",
+              "ToolTip": "C:\\Dosyalar\\C#\\Staj.MVCeTicaret\\Staj\\Views\\DocumentTracking\\Create.cshtml",
+              "RelativeToolTip": "Staj\\Views\\DocumentTracking\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-23T10:31:06.003Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Dosyalar\\C#\\Staj.MVCeTicaret\\Staj\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "Staj\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Dosyalar\\C#\\Staj.MVCeTicaret\\Staj\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "Staj\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-22T11:54:21.118Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Dosyalar\\C#\\Staj.MVCeTicaret\\Staj\\Views\\DocumentTracking\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Staj\\Views\\DocumentTracking\\Edit.cshtml",
+              "ToolTip": "C:\\Dosyalar\\C#\\Staj.MVCeTicaret\\Staj\\Views\\DocumentTracking\\Edit.cshtml",
+              "RelativeToolTip": "Staj\\Views\\DocumentTracking\\Edit.cshtml",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAiwGIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-23T11:42:59.948Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Dosyalar\\C#\\Staj.MVCeTicaret\\Staj\\Views\\Account\\Index.cshtml",
+              "RelativeDocumentMoniker": "Staj\\Views\\Account\\Index.cshtml",
+              "ToolTip": "C:\\Dosyalar\\C#\\Staj.MVCeTicaret\\Staj\\Views\\Account\\Index.cshtml",
+              "RelativeToolTip": "Staj\\Views\\Account\\Index.cshtml",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAAwFcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-26T08:23:40.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Dosyalar\\C#\\Staj.MVCeTicaret\\Staj\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "Staj\\Controllers\\AccountController.cs",
               "ToolTip": "C:\\Dosyalar\\C#\\Staj.MVCeTicaret\\Staj\\Controllers\\AccountController.cs",
               "RelativeToolTip": "Staj\\Controllers\\AccountController.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAwNkAAAAJAAAA",
+              "ViewState": "AQIAAOMAAAAAAAAAAAAowP4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-22T06:18:21.995Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-26T08:32:22.471Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "_UserDetails.cshtml",
+              "DocumentMoniker": "C:\\Dosyalar\\C#\\Staj.MVCeTicaret\\Staj\\Views\\Account\\_UserDetails.cshtml",
+              "RelativeDocumentMoniker": "Staj\\Views\\Account\\_UserDetails.cshtml",
+              "ToolTip": "C:\\Dosyalar\\C#\\Staj.MVCeTicaret\\Staj\\Views\\Account\\_UserDetails.cshtml",
+              "RelativeToolTip": "Staj\\Views\\Account\\_UserDetails.cshtml",
+              "ViewState": "AQIAACMAAAAAAAAAAADwvz0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-26T12:29:43.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Dosyalar\\C#\\Staj.MVCeTicaret\\Staj\\Views\\Account\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Staj\\Views\\Account\\Edit.cshtml",
+              "ToolTip": "C:\\Dosyalar\\C#\\Staj.MVCeTicaret\\Staj\\Views\\Account\\Edit.cshtml",
+              "RelativeToolTip": "Staj\\Views\\Account\\Edit.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAiwEMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-26T08:30:46.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DocumentTracking.cs",
+              "DocumentMoniker": "C:\\Dosyalar\\C#\\Staj.MVCeTicaret\\Staj\\Entity\\DocumentTracking.cs",
+              "RelativeDocumentMoniker": "Staj\\Entity\\DocumentTracking.cs",
+              "ToolTip": "C:\\Dosyalar\\C#\\Staj.MVCeTicaret\\Staj\\Entity\\DocumentTracking.cs",
+              "RelativeToolTip": "Staj\\Entity\\DocumentTracking.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAYwB8AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T08:42:55.662Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "DataInitializer.cs",
+              "DocumentMoniker": "C:\\Dosyalar\\C#\\Staj.MVCeTicaret\\Staj\\Entity\\DataInitializer.cs",
+              "RelativeDocumentMoniker": "Staj\\Entity\\DataInitializer.cs",
+              "ToolTip": "C:\\Dosyalar\\C#\\Staj.MVCeTicaret\\Staj\\Entity\\DataInitializer.cs",
+              "RelativeToolTip": "Staj\\Entity\\DataInitializer.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T08:10:36.749Z"
             }
           ]
         }

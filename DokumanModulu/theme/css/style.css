@@ -1,0 +1,52 @@
+
+
+main > .container {
+    padding: 60px 15px 0;
+}
+
+.footer {
+    background-color: #f5f5f5;
+}
+
+    .footer > .container {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+code {
+    font-size: 80%;
+}
+
+.list-group-item.active a {
+    
+    border-color: black;
+    color: white;
+}
+
+#product-price {
+    font-size: 35px;
+}
+
+
+html, body {
+    background-color:  whitesmoke;
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    flex: 1;
+}
+
+.footer {
+    background-color: #f8f9fa; 
+    border-top: 1px solid #e7e7e7; 
+}
+
+
+

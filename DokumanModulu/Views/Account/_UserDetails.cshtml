@@ -1,0 +1,61 @@
+﻿@model DokumanModulu.Models.User
+
+<div class="form-horizontal">
+    <div class="form-group row align-items-center">
+        @Html.LabelFor(model => model.Name, htmlAttributes: new { @class = "control-label col-md-3 font-weight-bold" })
+        <div class="col-md-9">
+            @Html.DisplayFor(model => model.Name, new { htmlAttributes = new { @class = "form-control-plaintext" } })
+        </div>
+    </div>
+
+    <div class="form-group row align-items-center">
+        @Html.LabelFor(model => model.Surname, htmlAttributes: new { @class = "control-label col-md-3 font-weight-bold" })
+        <div class="col-md-9">
+            @Html.DisplayFor(model => model.Surname, new { htmlAttributes = new { @class = "form-control-plaintext" } })
+        </div>
+    </div>
+
+    <div class="form-group row align-items-center">
+        @Html.LabelFor(model => model.Email, htmlAttributes: new { @class = "control-label col-md-3 font-weight-bold" })
+        <div class="col-md-9">
+            @Html.DisplayFor(model => model.Email, new { htmlAttributes = new { @class = "form-control-plaintext" } })
+        </div>
+    </div>
+
+    <div class="form-group row align-items-center">
+        @Html.LabelFor(model => model.PhoneNumber, htmlAttributes: new { @class = "control-label col-md-3 font-weight-bold" })
+        <div class="col-md-9">
+            @Html.DisplayFor(model => model.PhoneNumber, new { htmlAttributes = new { @class = "form-control-plaintext" } })
+        </div>
+    </div>
+
+    <div class="form-group row align-items-center">
+        @Html.Label("Role", "Rol", htmlAttributes: new { @class = "control-label col-md-3 font-weight-bold" })
+        <div class="col-md-9">
+            <p class="form-control-plaintext">@ViewBag.Role</p>
+        </div>
+    </div>
+</div>
+
+<style>
+    .form-horizontal .form-group.row {
+        margin-bottom: 1rem;
+    }
+
+    .form-horizontal .control-label {
+        text-align: left;
+    }
+
+    .form-horizontal .form-group.row.align-items-center {
+        align-items: center;
+    }
+
+    .form-control-plaintext {
+        font-size: 1.1rem;
+        color: #495057;
+    }
+
+    .modal-content {
+        padding: 1rem;
+    }
+</style>

@@ -1,0 +1,143 @@
+﻿@model IEnumerable<DokumanModulu.Entity.DocumentTracking>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<div class="container mt-5">
+    <h2><i class="fa fa-file-text" aria-hidden="true"></i> DOKÜMAN LİSTESİ</h2>
+    <hr />
+    <p>
+        <a href="@Url.Action("Create")" class="btn btn-success">
+            <i class="fa fa-plus" aria-hidden="true"></i> Doküman Ekle
+        </a>
+    </p>
+    <table class="table table-bordered table-striped">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Path)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CreatedDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CreatedUserId)
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Path)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CreatedDate)
+                </td>
+                <td>
+                    <a href="#" class="view-user-details" data-toggle="modal" data-target="#userDetailsModal" data-id="@item.CreatedUserId">
+                        @item.CreatedUserId
+                    </a>
+                </td>
+                <td>
+                    <a href="@Url.Action("ViewFile", new { id = item.Id })" class="btn btn-secondary" title="Görüntüle">
+                        <i class="fa fa-eye" aria-hidden="true"></i>
+                    </a>
+                    @if (User.IsInRole("admin"))
+                    {
+                        <a href="@Url.Action("Edit", new { id = item.Id })" class="btn btn-primary" title="Düzenle">
+                            <i class="fa fa-pencil" aria-hidden="true"></i>
+                        </a>
+                    }
+                    <button class="btn btn-danger" data-toggle="modal" data-target="#deleteModal" data-id="@item.Id" title="Sil">
+                        <i class="fa fa-trash" aria-hidden="true"></i>
+                    </button>
+                </td>
+            </tr>
+        }
+    </table>
+</div>
+
+<!-- Silme Onayı Modali -->
+<div class="modal fade" id="deleteModal" tabindex="-1" role="dialog" aria-labelledby="deleteModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="deleteModalLabel">Silme Onayı</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                Bu dokümanı silmek istediğinize emin misiniz?
+            </div>
+            <div class="modal-footer">
+                @using (Html.BeginForm("Delete", "DocumentTracking", FormMethod.Post))
+                {
+                    @Html.AntiForgeryToken()
+                    <input type="hidden" name="id" id="deleteDocumentId" />
+                    <button type="submit" class="btn btn-danger">Sil</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">İptal</button>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Kullanıcı Detayları Modali -->
+<div class="modal fade" id="userDetailsModal" tabindex="-1" role="dialog" aria-labelledby="userDetailsModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="userDetailsModalLabel">Kullanıcı Detayları</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div id="userDetailsContent"></div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Kapat</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<script type="text/javascript">
+    $('#deleteModal').on('show.bs.modal', function (event) {
+        var button = $(event.relatedTarget) // Sil butonunu tetikleyen buton
+        var documentId = button.data('id') // data-id özniteliğinden doküman ID'sini al
+        var modal = $(this)
+        modal.find('.modal-footer #deleteDocumentId').val(documentId)
+    })
+
+    $('#userDetailsModal').on('show.bs.modal', function (event) {
+        var button = $(event.relatedTarget) // Kullanıcı ID'sini tetikleyen buton
+        var userId = button.data('id') // data-id özniteliğinden kullanıcı ID'sini al
+        var modal = $(this)
+        var userDetailsContent = modal.find('#userDetailsContent')
+
+        // Kullanıcı detaylarını yükle
+        $.ajax({
+            url: '@Url.Action("Details", "Account")',
+            data: { id: userId },
+            success: function (data) {
+                userDetailsContent.html(data)
+            },
+            error: function () {
+                userDetailsContent.html('<p>Kullanıcı bilgileri yüklenemedi.</p>')
+            }
+        })
+    })
+</script>
